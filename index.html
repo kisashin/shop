@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<title>Document</title>
+			<meta author="Andres Romero">
+			<meta description="">
+			<meta keywords="">
+			<link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+			<script src="js/js.js"></script>
+			<script src="js/bootstrap.js"></script>
+		</head>
+		<body>
+			
+			<div class="container">    <!-- Nav-->
+
+				<div class="row">
+
+					<div class="col-3">
+						<img class="img" src="img/1.png" alt="">
+					</div>
+
+					<div class="col-6">
+						<h1>Tienda</h1>
+					</div>
+
+					<div class="col-3 align-self-center text-center">
+						 <div class="carrito"><i class="fas fa-shopping-cart"></i><span>Carrito</span></div>
+					</div>
+
+				</div>
+			
+			<div class="col my-4"></div>  
+
+			<div class="container">	<!-- Container 1-->
+
+				<div class="row">  <!-- Row 1-->
+
+					<div class="col-1"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 1</h5>
+								<input type="number" class="cantidad" id="p1">
+								<input type="hidden" id="vp1" value="500">	
+								</div>
+							</li>
+						</ul>					
+					</div>
+
+					<div class="col-2"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 2</h5>
+								<input type="number" class="cantidad" id="p2">
+								<input type="hidden" id="vp2" value="2000">
+								</div>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-1"></div>
+
+				</div>
+
+				<div class="row"><!-- Row 2-->
+
+					<div class="col-1"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 3</h5>
+								<input type="number" class="cantidad" id="p3">
+								<input type="hidden" id="vp3" value="300">
+								</div>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-2"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 4</h5>
+								<input type="number" class="cantidad" id="p4">
+								<input type="hidden" id="vp4" value="1500">
+								</div>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-1"></div>
+
+				</div>
+
+				<div class="row"><!-- Row 3-->
+				
+					<div class="col-1"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 5</h5>
+								<input type="number" class="cantidad" id="p5">
+								<input type="hidden" id="vp5" value="2500">
+								</div>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-2"></div>
+
+					<div class="col-4">
+						<ul>
+							<li class="media">
+								<img class="img2" src="img/2.png" alt="">
+								<div class="media-body">
+								<h5>Producto 6</h5>
+								<input type="number" class="cantidad" id="p6">
+								<input type="hidden" id="vp6" value="3500">
+								</div>
+							</li>
+						</ul>			
+					</div>
+
+					<div class="col-1"></div>
+
+				</div>
+
+			</div>  <!-- End Container 1-->
+
+			<div class="row my-4">
+		
+			<div class="col-1"></div><!--Subtotal-->
+			
+			<div class="col-5">
+			
+				<div class="form-group row">
+					<label for="st1" class="col-sm-4">Subtotal</label>
+					<div class="col-sm-8">
+						<input type="number" id="st1" disabled>
+					</div>
+				</div>
+
+			  	<div class="form-group row">
+					<label for="i1" class="col-sm-4">Iva</label>
+					<div class="col-sm-8">
+				  		<input type="number" id="i1" disabled>
+				  		<input type="hidden" id="vi1" value="19">
+					</div>
+			 	</div>
+			
+			</div>
+						
+			<div class="col-5">
+		
+				<div class="form-group row">
+					<label for="st2" class="col-sm-4">Subtotal</label>
+					<div class="col-sm-8">
+						<input type="number" id="st2" disabled>
+					</div>
+				</div>
+
+			  	<div class="form-group row">
+					<label for="i2" class="col-sm-4">Iva</label>
+					<div class="col-sm-8">
+						<input type="number" id="i2" disabled>
+					  	<input type="hidden" id="vi2" value="10">
+					</div>
+			 	</div>
+					
+			</div>
+			
+			<div class="col-1"></div>
+			
+		
+			</div><!--End Subtotal-->
+
+			<div class="row my-4"><!--Bill-->
+			
+			<div class="col-2"></div>
+				
+			<div class="col-3 align-self-center text-center">		
+				<h2><label>Factura</label><h2>
+				<button type="submit" class="btn btn-primary" onclick="calculartotal();">Calcular</button>					
+			</div>
+				
+			<div class="col-1"></div>
+				
+				<div class="col-4">
+				
+					<div class="form-group row">
+							<label for="subtotal" class="col-sm-4">Subtotal</label>
+							<div class="col-sm-8">
+								<input type="number" id="st" placeholder="0000" disabled>
+							</div>
+					</div>
+
+					<div class="form-group row">
+							<label for="ivafinal" class="col-sm-4">Iva</label>
+							<div class="col-sm-8">
+								<input type="number" id="ivf" placeholder="0000" disabled>
+							</div>
+					</div>
+
+					<div class="form-group row">
+							<label for="tlf" class="col-sm-4">Total</label>
+							<div class="col-sm-8">
+								<input type="number" id="tlf" placeholder="0000" disabled>
+							</div>
+					</div>
+
+				</div>
+				
+				<div class="col-2"></div>
+				
+			</div><!--End bill-->
+				
+			</div>
+			<div class="container my-4">
+			
+				<div class="row">
+				
+						<div class="col align-self-center text-center">
+							<h2>2018 &copy; Tienda.com </h2>
+						</div>
+				
+				</div>
+			
+			</div>
+
+		</body>
+		
+	</html>

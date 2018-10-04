@@ -1,0 +1,47 @@
+/* Fuentes desde googlefonts*/
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
+*{
+	font-family: 'Abel';
+}
+body {
+	font-family:Ailerons, Abel, Arial, Helvetica, San-Serif;
+}
+
+.img{
+	width: 200px;	
+	border-radius: 50%;
+	box-shadow: 0px 5px 0px #000;
+}
+
+.img2{
+	width: 50px;	
+	margin: 10px;
+}
+
+h1{
+	text-align: center;
+	font-size: 80px;
+}
+
+.carrito{
+	font-size: 50px;
+	
+}
+.carrito i{
+	margin: 15px;
+}
+
+.carrito span{
+	font-family: Sketchy;
+	font-size: 50px;
+}
+
+
+
+@font-face{font-family: 'Ailerons'; src: url(fonts/Ailerons-Typeface.otf);}
+@font-face{font-family: 'Abel'; src: url(fonts/Abel.ttf);}
+
+
